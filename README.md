@@ -1,7 +1,6 @@
 %This code works perfectly on grayscale images
 
 image=imread("cameraman.tif");
-
 %reading the image (cameraman.tif is preloaded image in the matlab). You can use yours also 
 
 disp(image);
