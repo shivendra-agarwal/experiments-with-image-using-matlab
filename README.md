@@ -28,4 +28,4 @@ my_global_mean=sum/(size(new_image,1)*size(new_image,2));
 disp("The global mean is: ")
 disp(my_global_mean);
 %display the global mean
-#### global_mean.m end
+#### /global_mean.m
