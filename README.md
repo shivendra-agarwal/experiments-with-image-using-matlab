@@ -1,4 +1,5 @@
-%This code works perfectly on grayscale images
+#### global_mean.m
+%This code works perfectly on grayscale images 
 
 image=imread("cameraman.tif");
 %reading the image (cameraman.tif is preloaded image in the matlab). You can use yours also 
@@ -27,4 +28,4 @@ my_global_mean=sum/(size(new_image,1)*size(new_image,2));
 disp("The global mean is: ")
 disp(my_global_mean);
 %display the global mean
-%end
+#### global_mean.m end
