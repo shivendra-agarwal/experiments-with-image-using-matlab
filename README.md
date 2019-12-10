@@ -1,6 +1,3 @@
-# experiments-with-image-using-matlab
-experiments with image using matlab
-
 %This code works perfectly on grayscale images
 
 image=imread("cameraman.tif");
@@ -17,7 +14,6 @@ sum=0;
 for i=1:size(new_image,1)
     %size(input,dimension) gives dimension on 1 axis which is number of
     %columns in the matrix
-    
     for j=1:size(b,2)
         %size(input,dimension) gives dimension on 2 axis which is number of
         %rows in the matrix
