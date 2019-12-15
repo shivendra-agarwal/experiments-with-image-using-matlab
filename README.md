@@ -58,3 +58,4 @@
         sum=0;
         %to add and store next row elements.
     end
+#### /mean_by_row.m
