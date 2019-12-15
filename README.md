@@ -45,6 +45,7 @@
 %the image is 2D matrix so we use 2 for loop to access each element of the matrix
 %suppose, we have 3x4 matrix(3 rows and 4 columns). The size(new_image,1) will give 3 as output
 %and size(new_image,2) will give 4 as output. The size() fucntion works on dimensions.
+
     for i = 1:size(new_image,1)
         for j = 1:size(new_image,2)
             %here, we get new_image[i,j] value
