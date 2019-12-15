@@ -53,7 +53,8 @@
             %adding values for 1,2,3,4,5....i row
         end
         disp(sum/size(new_image,2));
-        sum=0;
         %print mean by dividing sum and number of columns(total number of
         %values in a row)
+        sum=0;
+        %to add and store next row elements.
     end
