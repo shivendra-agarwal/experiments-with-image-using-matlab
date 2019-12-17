@@ -77,9 +77,11 @@
 %suppose, we have 3x4 matrix(3 rows and 4 columns). The size(new_image,1) will give 3 as output
 %and size(new_image,2) will give 4 as output. The size() fucntion works on 
 %dimensions. 
+
     find_my_pixel=input("Enter pixel number whose freq is required: ")
     count=0;
 %to store frequency of the given pixel
+
     for i=1:size(new_image,1)
         for j=1:size(new_image,2)
             if new_image(i,j) == find_my_pixel
